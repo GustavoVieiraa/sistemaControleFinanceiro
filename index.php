@@ -12,9 +12,23 @@
     <div class="menu-login">
         <div class="esquerda-login">
             <h1>Registre-se<br> E controle suas finanças de um jeito prático e eficaz.</h1>
+            <img style="width: 300px;" class="esquerda-login-imagem" src="../sistemaControleFinanceiro/styles/money.svg" alt="dinheiro-dinamico">
+            <button class="btn-registrar">Registrar</button>
         </div>
         <div class="direita-login">
-            <form action=""></form>
+            <div class="card-login">
+                <h1>myFinances</h1>
+                <div class="textField">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" id="usuario" placeholder="Usuário">
+                </div>
+                <div class="textField">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Senha">
+                </div>
+                <button class="btn-login">Acessar</button>
+                <button class="btn-registrar-mobile">Registrar</button>
+            </div>
         </div>
     </div>
 </body>
