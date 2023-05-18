@@ -1,0 +1,24 @@
+Sobre o Projeto:
+Na página inicial de login ou registro:
+O projeto possui validação de formulários, checkagem de força de senha e redirecionamento. Além de checar se o usuário já existe.
+
+Na dashboard em sua tela inicial é possível:
+- Entrada de valor
+  - Campos: Descrição, valor e categoria
+- Saída de valor (despesa)
+  - Campos:  Descrição, valor, tipo da despesa (fixa ou variada) e categoria
+A tela inicial também mostra:
+- Receita mensal
+  - menor receita
+  - maior receita
+- Despesa Mensal
+  - menor despesa
+  - maior despesa
+- Saldo
+  - Depenpendo se positivo ou negativo a cor da informação muda
+  - Alerta caso a porcentagem das despesas já seja maior que 50% da sua renda.
+- Gráfico Receita vs Despesas
+Outras funcionalidades são:
+- Últimas 10 movimentações
+- Edição com modal das últimas 5 movimentações
+- Deleção das movimentações
