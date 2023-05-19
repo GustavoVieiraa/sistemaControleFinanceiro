@@ -11,7 +11,7 @@
 <body>
     <div class="menu-login">
         <div class="esquerda-login">
-            <h1>Registre-se<br> E controle suas finanças de um jeito prático e eficaz.</h1>
+            <h1>Registre-se<br> E controle suas finanças de uma maneira mais prática e eficaz.</h1>
             <img style="width: 300px;" class="esquerda-login-imagem" src="../sistemaControleFinanceiro/styles/money.svg" alt="dinheiro-dinamico">
             <button class="btn-registrar">Registrar</button>
         </div>
