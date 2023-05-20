@@ -161,6 +161,121 @@ body {
     color: #FEFEFE;
 }
 
+/* Box-Registro configurações MODAL*/
+.box-registro {
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    border-radius: 12px;
+    width: 330px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 18px;
+    background: #FCFCFC;
+    /* display: none; */
+}
+
+.circle .registro-head {
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 6px;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    background: #fff;
+}
+
+.circle .registro-body {
+    display: inline-block;
+    width: 35px;
+    margin: 0 auto;
+    margin-top: 26px;
+    height: 25px;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    background: #fff;
+}
+
+.fechar {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    color: tomato;
+    font-size: 34px;
+    transition: ease-in-out .2s;
+    cursor: pointer;
+}
+
+.fechar:hover {
+    background-color: red;
+}
+
+.registrar-box {
+    margin-top: 43px;
+}
+
+label {
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    color: rgb(169, 171, 170);
+    margin-top: -70px;
+    padding-left: 18px;
+    text-align: left;
+    pointer-events: none;
+    transition: .4s;
+}
+
+input {
+    width: 95%;
+    height: 42px;
+    margin: 10px 1px 28px 1px;
+    padding: 9px;
+    font-size: 18px;
+    color: #555;
+    border: rgb(65, 118, 97) 1px solid;
+    outline: none;
+    border-radius: 5px;
+}
+
+input:focus~label,
+input:valid~label {
+    margin-top: -115px;
+    padding-left: 8px;
+    color: #026948;
+    font-weight: 500;
+}
+
+.circle {
+    position: absolute;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: -35px;
+    right: 0;
+    left: 0;
+    background: rgba(1, 170, 133);
+    border: 2px #fff solid;
+}
+
+.box-registro .circle, .box-registro span {
+    display: inline-block;
+    position: absolute;
+}
+
+.box-registro span {
+    height: 2px;
+    background: rgb(1, 170, 133);
+}
+
+
 /* Tratamento de Media Query */
 @media only screen and (max-width: 2600px) {
     .btn-registrar-mobile {

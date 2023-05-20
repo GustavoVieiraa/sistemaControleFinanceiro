@@ -13,7 +13,7 @@
         <div class="esquerda-login">
             <h1>Registre-se<br> E controle suas finanças de uma maneira mais prática e eficaz.</h1>
             <img style="width: 300px;" class="esquerda-login-imagem" src="../sistemaControleFinanceiro/styles/money.svg" alt="dinheiro-dinamico">
-            <button class="btn-registrar">Registrar</button>
+            <button class="btn-registrar" onclick="teste()">Registrar</button>
         </div>
         <div class="direita-login">
             <div class="card-login">
@@ -31,5 +31,35 @@
             </div>
         </div>
     </div>
+    <section class="box-registro">
+        <div class="fechar">&times;</div>
+        <div class="circle">
+            <span class="registro-head"></span>
+            <span class="registro-body"></span>
+        </div>
+
+        <div class="registrar-box">
+            <div>
+                <input type="email" name="email" id="email" required>
+                <label for="email">Email</label>
+            </div>
+
+            <div>
+                <input type="text" name="primeiro_nome" id="primeiro_nome" required>
+                <label for="primeiro_nome">Primeiro nome</label>
+            </div>
+            <div>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+                <label for="sobrenome">Sobrenome</label>
+            </div>
+
+            <div>
+                <input type="password" name="senha" id="senha" required>
+                <label for="senha">Senha</label>
+            </div>
+            <button class="btnEnviar" onclick="teste()">Cadastrar</button>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
 </body>
 </html>
